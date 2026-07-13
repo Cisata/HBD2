@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Ayinla ❤️</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<!-- ===================================== -->
+<!-- LOADING SCREEN -->
+<!-- ===================================== -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <h1>Preparing Something Special...</h1>
+
+        <div class="loader-bar">
+
+            <div class="loader-progress"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ===================================== -->
+<!-- BACKGROUND -->
+<!-- ===================================== -->
+
+<div class="background">
+
+    <div class="stars"></div>
+
+</div>
+
+<!-- ===================================== -->
+<!-- HERO SECTION -->
+<!-- ===================================== -->
+
+<section id="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-date">
+
+            22 December 2026
+
+        </p>
+
+        <h1>
+
+            Happy Birthday
+
+        </h1>
+
+        <h2>
+
+            Ayinla
+
+        </h2>
+
+        <p class="hero-text">
+
+            Today is a celebration of someone truly wonderful.
+
+            I made this little website just for you.
+
+            I hope it brings a smile to your face.
+
+        </p>
+
+        <button id="startButton">
+
+            Begin
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- LETTER SECTION -->
+<!-- ===================================== -->
+
+<section id="letterSection"
+         class="hidden">
+
+    <h2>
+
+        A Letter For You
+
+    </h2>
+
+    <div class="envelope">
+
+        <div class="envelope-front" id="openLetter">
+
+            💌
+
+        </div>
+
+        <div class="letter">
+
+            <h3>
+
+                Dear Ayinla,
+
+            </h3>
+
+            <p>
+
+                Happy Birthday!
+
+            </p>
+
+            <p>
+
+                Today is a reminder of how special you are.
+
+                May this year bring you happiness,
+
+                good health,
+
+                wonderful opportunities,
+
+                and countless reasons to smile.
+
+            </p>
+
+            <p>
+
+                May every dream you have slowly become reality.
+
+            </p>
+
+            <p>
+
+                Wishing you a year filled with love,
+
+                laughter,
+
+                and unforgettable memories.
+
+            </p>
+
+            <p>
+
+                Happy Birthday ❤️
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <button id="continueButton">
+
+        Continue
+
+    </button>
+
+</section>
+
+<!-- ===================================== -->
+<!-- GALLERY SECTION -->
+<!-- ===================================== -->
+
+<section id="gallerySection"
+         class="hidden">
+
+    <h2>
+
+        Memories
+
+    </h2>
+
+    <div class="gallery">
+
+        <button class="gallery-btn"
+                id="prev">
+
+            ❮
+
+        </button>
+
+        <img src="images/photo1.jpg"
+             id="galleryImage"
+             alt="Gallery Image">
+
+        <button class="gallery-btn"
+                id="next">
+
+            ❯
+
+        </button>
+
+    </div>
+
+    <p class="gallery-caption">
+
+        Replace these photos with your own memories.
+
+    </p>
+
+    <button id="galleryContinue">
+
+        Continue
+
+    </button>
+
+</section>
+
+<!-- ===================================== -->
+<!-- HTML PART 1 ENDS HERE -->
+<!-- DO NOT ADD </body> OR </html> YET -->
+<!-- ===================================== -->
+ <!-- ===================================== -->
+<!-- MUSIC SECTION -->
+<!-- ===================================== -->
+
+<section id="musicSection"
+         class="hidden">
+
+    <div class="music-card">
+
+        <h2>Our Song</h2>
+
+        <p class="music-title">
+
+            Better
+
+        </p>
+
+        <p class="music-artist">
+
+            by Khalid
+
+        </p>
+
+        <audio id="birthdaySong"
+               controls>
+
+            <source src="music/better.mp3"
+                    type="audio/mpeg">
+
+            Your browser does not support audio playback.
+
+        </audio>
+
+        <p class="music-note">
+
+            Replace <strong>better.mp3</strong> with your own music file.
+
+        </p>
+
+    </div>
+
+    <button id="musicContinue">
+
+        Continue
+
+    </button>
+
+</section>
+
+<!-- ===================================== -->
+<!-- CAKE SECTION -->
+<!-- ===================================== -->
+
+<section id="cakeSection"
+         class="hidden">
+
+    <h2>
+
+        Make A Wish
+
+    </h2>
+
+    <p class="cake-text">
+
+        Close your eyes, make a wish,
+        then click the button below.
+
+    </p>
+
+    <div class="cake">
+
+        <div class="cake-top"></div>
+
+        <div class="candle">
+
+            <div class="flame"
+                 id="flame"></div>
+
+        </div>
+
+    </div>
+
+    <button id="wishButton">
+
+        Make A Wish
+
+    </button>
+
+</section>
+
+<!-- ===================================== -->
+<!-- CELEBRATION SECTION -->
+<!-- ===================================== -->
+
+<section id="celebrationSection"
+         class="hidden">
+
+    <div id="confettiContainer"></div>
+
+    <h1>
+
+        Happy Birthday
+
+    </h1>
+
+    <h2>
+
+        Ayinla ❤️
+
+    </h2>
+
+    <p>
+
+        May today bring you joy,
+
+        tomorrow bring you hope,
+
+        and the year ahead bring
+
+        countless beautiful moments.
+
+    </p>
+
+    <button id="restartButton">
+
+        Read Again
+
+    </button>
+
+</section>
+
+<!-- ===================================== -->
+<!-- FOOTER -->
+<!-- ===================================== -->
+
+<footer>
+
+    <p>
+
+        Made with ❤️
+
+        especially for Ayinla.
+
+    </p>
+
+</footer>
+
+<!-- ===================================== -->
+<!-- JAVASCRIPT -->
+<!-- ===================================== -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
